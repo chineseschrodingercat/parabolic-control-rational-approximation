@@ -1,6 +1,6 @@
 # Rational approximation of parabolic control transients
 
-Code and data accompanying *Uniform rational approximation of endpoint transients in linear-quadratic parabolic control*, by **Minhao Liu and Senwei Liang**. The `v1.5` tag identifies the manuscript's reproducibility snapshot.
+Code and data accompanying *Uniform rational approximation of endpoint transients in linear-quadratic parabolic control*, by **Minhao Liu and Senwei Liang**. The `v1.5.1` tag identifies the manuscript's reproducibility snapshot.
 
 ## Contents
 
@@ -35,3 +35,7 @@ The fixed 24-pole certificate covers `alpha in [0.53,1]`, `beta in [0.1,10]`, `t
 For the boundary-zero family, the observed degree is the **first** complete block whose two operator norms reach `0.01`. Errors need not decrease from one block to the next. The plotted slope-1/2 line is a normalized scaling guide, while the analytical lower bound is asymptotic with an existential threshold. Computed residuals and precision comparisons are numerical diagnostics; the rational certificates are exact checks.
 
 The repository contains generated mathematical data and the programs needed to reproduce the numerical figures and tables. Article and supplementary-document source files are delivered separately.
+
+## Release history
+
+- `v1.5.1`: corrects the checksum manifest for the exact Git-stored line endings. Scientific code and numerical results are unchanged from `v1.5`.
