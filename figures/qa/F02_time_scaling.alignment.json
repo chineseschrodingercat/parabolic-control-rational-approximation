@@ -1,0 +1,46 @@
+{
+  "backend": "Python/Matplotlib",
+  "verdict": "PASS",
+  "review_kind": "author geometric self-check",
+  "tolerance_pt": 1.5,
+  "deviations_pt": {
+    "bottom": 0.0,
+    "top": 0.0,
+    "width": 2.842170943040401e-14,
+    "height": 0.0
+  },
+  "nonoverlap": true,
+  "figure_size_pt": [
+    406.8,
+    248.4
+  ],
+  "exemptions": [
+    {
+      "id": "bound-detail",
+      "checks": [
+        "main-panel-row-comparison"
+      ],
+      "reason": "Sufficient-factor detail inset has its own d and factor scales; it is not an equal-size evidence panel."
+    }
+  ],
+  "panels": [
+    {
+      "id": "a",
+      "bbox_pt": [
+        46.782000000000004,
+        67.06800000000001,
+        192.7911286307054,
+        218.592
+      ]
+    },
+    {
+      "id": "b",
+      "bbox_pt": [
+        252.65487136929457,
+        67.06800000000001,
+        398.664,
+        218.592
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "config": {
+    "tau": 0.003125,
+    "beta": 1,
+    "xa": 0.25,
+    "xb": 0.75
+  },
+  "rows": [
+    {
+      "alpha": 1.0,
+      "nx": 40,
+      "J": 10,
+      "F": 0.007343735525225296,
+      "G": 0.0073437355111923884,
+      "diagnostics": {
+        "primal_bellman_relative": 8.9869624252495e-17,
+        "feedback_relative": 1.2532039237769423e-16,
+        "dual_bellman_relative": 1.5177865880213093e-16,
+        "paired_graph_relative": 2.878950327047596e-16
+      }
+    },
+    {
+      "alpha": 1.0,
+      "nx": 160,
+      "J": 10,
+      "F": 0.007373887115250166,
+      "G": 0.007373887101223914,
+      "diagnostics": {
+        "primal_bellman_relative": 2.5098730601472534e-16,
+        "feedback_relative": 2.1143824565479696e-16,
+        "dual_bellman_relative": 1.2526329510400893e-16,
+        "paired_graph_relative": 2.68603686363846e-16
+      }
+    },
+    {
+      "alpha": 1.0,
+      "nx": 640,
+      "J": 10,
+      "F": 0.007373192226407272,
+      "G": 0.007373192212381804,
+      "diagnostics": {
+        "primal_bellman_relative": 5.805114971321544e-16,
+        "feedback_relative": 1.0127485635091898e-15,
+        "dual_bellman_relative": 3.2919130429326685e-16,
+        "paired_graph_relative": 5.504190353039722e-16
+      }
+    },
+    {
+      "alpha": 0.01,
+      "nx": 40,
+      "J": 19,
+      "F": 0.0019442821661607098,
+      "G": 0.0017513502710395372,
+      "diagnostics": {
+        "primal_bellman_relative": 1.116554916274065e-16,
+        "feedback_relative": 2.9612173629124225e-15,
+        "dual_bellman_relative": 1.3575789261369525e-15,
+        "paired_graph_relative": 6.432249862369629e-16
+      }
+    },
+    {
+      "alpha": 0.01,
+      "nx": 160,
+      "J": 19,
+      "F": 0.0019482685676845955,
+      "G": 0.001768702968017217,
+      "diagnostics": {
+        "primal_bellman_relative": 7.19415077513127e-16,
+        "feedback_relative": 7.165229409030724e-14,
+        "dual_bellman_relative": 1.261828071798112e-15,
+        "paired_graph_relative": 2.780692008460001e-15
+      }
+    },
+    {
+      "alpha": 0.01,
+      "nx": 640,
+      "J": 19,
+      "F": 0.001948518117503468,
+      "G": 0.0017687044536184176,
+      "diagnostics": {
+        "primal_bellman_relative": 1.5636748079698055e-15,
+        "feedback_relative": 1.7999642230393752e-13,
+        "dual_bellman_relative": 1.9816490233751678e-15,
+        "paired_graph_relative": 5.6313359040188145e-15
+      }
+    }
+  ]
+}

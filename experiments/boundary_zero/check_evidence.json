@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": {
+    "all_integer_degrees_match_80_120": true,
+    "120_digit_residuals_below_1e-95": true,
+    "80_120_comparison_below_1e-55": true,
+    "independent_scipy_moderate_alpha_below_1e-8": true,
+    "positive_value_operators": true,
+    "first_crossing_failed_predecessor": true,
+    "first_crossing_successful": true,
+    "block_search_exhaustive_after_spectral_exclusion": true,
+    "exact_reciprocal_polynomial": true
+  },
+  "maximum_120_digit_residual": "1.85701368833179224517186247150201492932295797811339734e-114",
+  "maximum_80_120_difference": "2.747096613279503674440713223486747148385474576422752985e-75",
+  "maximum_moderate_scipy_difference": 4.148911138767419e-14,
+  "scope": "Executed numerical diagnostics, not rigorous interval enclosures. Two precisions, independently formulated SciPy primal/dual Riccati equations, exact reciprocal coefficients, invariant eigenbasis powers, and exhaustive complete-block crossing."
+}

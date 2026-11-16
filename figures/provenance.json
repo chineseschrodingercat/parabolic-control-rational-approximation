@@ -1,0 +1,61 @@
+{
+  "backend": "Python/Matplotlib",
+  "python": "3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]",
+  "matplotlib": "3.10.8",
+  "print_width_in": 5.65,
+  "dpi": 600,
+  "font": "Computer Modern Roman regular (cmr10) with CM math",
+  "inputs": [],
+  "geometry": {
+    "m_tau": "1/8",
+    "chi": "1",
+    "S": "3/4",
+    "J": 3,
+    "shifts": [
+      0.125,
+      0.25,
+      0.5
+    ],
+    "interpretation": "Schematic only; no sample spectrum or numerical range is plotted."
+  },
+  "geometry_symbolic_checks": {
+    "point": "4/5 + (3/5)i",
+    "Re_ge_m": true,
+    "sector": true,
+    "origin_disk": true,
+    "outside_shifted_disk": true,
+    "squared_distance_to_shifted_center": "9/20",
+    "shell_union": "[1/8,1/4] union [1/4,1/2] union [1/2,1] = [m_tau,chi]",
+    "shell_count": 3,
+    "J_formula": true,
+    "shifted_disk_subset_origin_disk": "|z| <= |z-chi/2| + chi/2 <= chi (triangle inequality)"
+  },
+  "alpha": {
+    "guide": "21 * (alpha_-/0.01)^(-1/2)",
+    "guide_anchor": {
+      "alpha": 0.01,
+      "actual_degree": 21
+    },
+    "asymptotic_class_c": 0.0006214238040570799,
+    "theorem_reference_not_plotted": "c * alpha_-^(-1/2) * log(100)",
+    "finite_alpha_caveat": "The validity threshold a0 is existential; the theorem reference is not a certified finite-alpha pointwise lower bound on this fixed family."
+  },
+  "source_mapping": {
+    "F02": "time_step_results.json: maximum F/G at EVERY stored degree; preBoth*q**floor(d/J); degrees[0] at epsilon=.01",
+    "F03": "boundary_numerics/results.json: rows.actual_degree and rows.constants.sufficient_degree; exact generated table cross-check follows in selfcheck",
+    "S01": "prior_results.json: finite-set maximum of each of four quantities over same 48 cases, at noise_fraction=0 and .001; all five windows"
+  },
+  "uncertainty": "None: deterministic computations and finite-set maxima. No invented intervals.",
+  "dependencies": {
+    "required": [
+      "numpy",
+      "matplotlib",
+      "fonttools"
+    ],
+    "optional_verification": [
+      "Pillow",
+      "pymupdf"
+    ]
+  },
+  "alignment_check": "Self-contained rendered two-panel bounding-box check at 1.5 pt tolerance."
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "certificate": {
+    "name": "one_percent_full_beta_subclass",
+    "alpha_lower": "53/100",
+    "beta_lower": "1/10",
+    "beta_upper": "10",
+    "lambda_lower": "53/20",
+    "eta_upper": "10/11",
+    "robin_eigenvalue_taylor_lower": "5459334820477/1277337600000000",
+    "a_numerator_upper": "303/1000",
+    "analytic_a_numerator_rational_upper": "229279/757152",
+    "a_upper": "303/530",
+    "rational_real_lower": "56951/33125",
+    "join_real": "1396961/561800",
+    "circle_cells": 3000,
+    "parabola_cells": 5804,
+    "scalar_upper": 0.002714470012,
+    "scalar_upper_rational": "678617503/250000000000",
+    "both_mass_operator_upper": 0.009160114667587963,
+    "both_mass_operator_upper_rational": "874560299983332103/95474820100000000000",
+    "target": "1/100",
+    "target_exactly_verified": true,
+    "squared_exact_upper_sha256": "20501ad08afb1256e5de83e6cece3018ee023b99a90affe59e3f7bfaa2acda21",
+    "worst_cell": [
+      "circle",
+      "6658268191/3511250000",
+      "26636665031/14045000000"
+    ],
+    "seconds": 8.48252419999335,
+    "scope": "Every conforming Galerkin mesh, fixed tau=1/320, L=kappa=1; any observation interval. The alpha and beta lower bounds listed here are essential."
+  },
+  "source_sha256": {
+    "research.py": "8b1972226c50f363e3b2a8c9b1d760e810653e4b3d0f2943442e2f8d408eace9",
+    "scalar_certificate.json": "4638ebbd3a793964b7584ad8dacfb0216ea32f814fdfef9096439256632cde13"
+  },
+  "comparison": "All prior exact certificate fields except elapsed seconds match."
+}

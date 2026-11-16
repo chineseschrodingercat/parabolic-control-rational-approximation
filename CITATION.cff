@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this code and data snapshot when reproducing these results."
+type: software
+title: "Uniform rational approximation of endpoint transients in linear-quadratic parabolic control: code and data"
+authors:
+  - family-names: Liu
+    given-names: Minhao
+  - family-names: Liang
+    given-names: Senwei
+version: "1.5"
+repository-code: "https://github.com/chineseschrodingercat/parabolic-control-rational-approximation"

@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "tau": 0.003125,
+  "mesh": "uniform conforming P1",
+  "dictionary": "fixed 24 poles",
+  "scope": "Finite grid evidence only, not the unresolved Robin full-box theorem.",
+  "rows": [
+    {
+      "alpha": 1.0,
+      "beta": 0.1,
+      "xa": 0.41577927256,
+      "xb": 0.91577927256,
+      "nx": 40,
+      "F": 0.0001650637207305036,
+      "G": 0.00016506441096396032,
+      "diagnostics": {
+        "primal_bellman_relative": 5.228256467269515e-17,
+        "feedback_relative": 5.315804558697859e-17,
+        "dual_bellman_relative": 1.3337318554391314e-16,
+        "paired_graph_relative": 3.7121397647949674e-16
+      }
+    },
+    {
+      "alpha": 1.0,
+      "beta": 0.1,
+      "xa": 0.41577927256,
+      "xb": 0.91577927256,
+      "nx": 160,
+      "F": 0.00016529604747141566,
+      "G": 0.00016529674350198616,
+      "diagnostics": {
+        "primal_bellman_relative": 1.4678002385768182e-16,
+        "feedback_relative": 2.2201116966767597e-16,
+        "dual_bellman_relative": 3.705183229308557e-16,
+        "paired_graph_relative": 4.189525592392468e-16
+      }
+    },
+    {
+      "alpha": 1.0,
+      "beta": 0.1,
+      "xa": 0.41577927256,
+      "xb": 0.91577927256,
+      "nx": 640,
+      "F": 0.00016531056855103007,
+      "G": 0.00016531126494555588,
+      "diagnostics": {
+        "primal_bellman_relative": 3.528194297462547e-16,
+        "feedback_relative": 8.653862156606353e-16,
+        "dual_bellman_relative": 6.130861318694532e-16,
+        "paired_graph_relative": 3.976214485131084e-16
+      }
+    },
+    {
+      "alpha": 0.001,
+      "beta": 0.1,
+      "xa": 0.41577927256,
+      "xb": 0.91577927256,
+      "nx": 40,
+      "F": 0.0002590462566397198,
+      "G": 0.0002933241556341013,
+      "diagnostics": {
+        "primal_bellman_relative": 1.1792644175573688e-16,
+        "feedback_relative": 1.8672516958091975e-14,
+        "dual_bellman_relative": 1.0982107331539594e-15,
+        "paired_graph_relative": 2.4014228545383505e-15
+      }
+    },
+    {
+      "alpha": 0.001,
+      "beta": 0.1,
+      "xa": 0.41577927256,
+      "xb": 0.91577927256,
+      "nx": 160,
+      "F": 0.00025981766351067394,
+      "G": 0.0002943535747385216,
+      "diagnostics": {
+        "primal_bellman_relative": 9.448391706936394e-16,
+        "feedback_relative": 2.583367010658912e-13,
+        "dual_bellman_relative": 2.3972251324194397e-15,
+        "paired_graph_relative": 2.2231375480648815e-14
+      }
+    },
+    {
+      "alpha": 0.001,
+      "beta": 0.1,
+      "xa": 0.41577927256,
+      "xb": 0.91577927256,
+      "nx": 640,
+      "F": 0.00025986587779858915,
+      "G": 0.0002944180473212532,
+      "diagnostics": {
+        "primal_bellman_relative": 3.760662989677077e-15,
+        "feedback_relative": 1.946531050723731e-12,
+        "dual_bellman_relative": 2.3119571267596196e-14,
+        "paired_graph_relative": 9.192810824602382e-14
+      }
+    }
+  ]
+}

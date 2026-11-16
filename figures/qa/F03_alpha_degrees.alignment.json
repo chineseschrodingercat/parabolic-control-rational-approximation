@@ -1,0 +1,38 @@
+{
+  "backend": "Python/Matplotlib",
+  "verdict": "PASS",
+  "review_kind": "author geometric self-check",
+  "tolerance_pt": 1.5,
+  "deviations_pt": {
+    "bottom": 0.0,
+    "top": 0.0,
+    "width": 0.0,
+    "height": 0.0
+  },
+  "nonoverlap": true,
+  "figure_size_pt": [
+    406.8,
+    230.4
+  ],
+  "exemptions": [],
+  "panels": [
+    {
+      "id": "a",
+      "bbox_pt": [
+        42.714,
+        41.472000000000016,
+        192.27282352941177,
+        200.448
+      ]
+    },
+    {
+      "id": "b",
+      "bbox_pt": [
+        249.10517647058822,
+        41.472000000000016,
+        398.664,
+        200.448
+      ]
+    }
+  ]
+}

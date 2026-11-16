@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": {
+    "numerical_data_match_at_tolerance": true,
+    "F01_cayley_geometry_portable_pixel_match": true,
+    "F02_time_scaling_portable_pixel_match": true,
+    "F03_alpha_degrees_portable_pixel_match": true,
+    "S01_prior_continuation_portable_pixel_match": true,
+    "boundary_checks_passed": true,
+    "robin_checks_passed": true
+  },
+  "numeric_comparison": {
+    "relative_tolerance": 1e-10,
+    "absolute_tolerance": 2e-12,
+    "differences": []
+  },
+  "fixed24_verifier": "passed, 8804 exact rational cells",
+  "form_class_verifier": "passed",
+  "metadata_changes": {
+    "boundary_zero/scope": "Reworded numerical scope, with mathematical scope unchanged."
+  }
+}

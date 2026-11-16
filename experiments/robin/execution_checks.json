@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "matrix_identity_residuals": true,
+    "prior_rational_coverage": true,
+    "prior_prefix_coverage": true,
+    "prior_projection_bound": true,
+    "prior_pythagoras": true
+  },
+  "max_matrix_residuals": {
+    "primal_bellman_relative": 1.5636748079698055e-15,
+    "feedback_relative": 2.693678359331533e-13,
+    "dual_bellman_relative": 1.4552808395560276e-14,
+    "paired_graph_relative": 2.4893222446404073e-14
+  },
+  "prior": {
+    "rational_coverage": true,
+    "prefix_coverage": true,
+    "projection_budget_valid_on_instances": true,
+    "pythagoras_max": 6.93402711051756e-17
+  },
+  "seconds": 37.356786200005445,
+  "versions": {
+    "python": "3.13.9",
+    "numpy": "2.4.3",
+    "scipy": "1.16.3"
+  },
+  "scientific_scope": "Finite numerical experiments, not global certificates. Analytical bounds use proved class constants."
+}
